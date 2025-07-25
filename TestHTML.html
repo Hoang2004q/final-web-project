@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dự Án HTML Cuối Kỳ Của Tôi - Khám Phá Web</title>
+    <meta name="description" content="Một trang web minh họa các kỹ năng HTML cơ bản cho dự án cuối kỳ, tập trung vào tính ngữ nghĩa và khả năng tiếp cận.">
+    
+    <link rel="icon" type="image/png" href="images/favicon.png"> 
+    
+    <style>
+        /* CSS cơ bản để trang trông dễ nhìn hơn và thể hiện các yếu tố đã học */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f2f5; /* Màu nền nhẹ nhàng */
+            color: #333;
+            box-sizing: border-box; /* Đảm bảo padding không làm tăng kích thước tổng thể */
+        }
+        header {
+            background-color: #2c3e50; /* Màu tối cho header */
+            color: #ffffff;
+            padding: 1.5rem 0;
+            text-align: center;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin-bottom: 0.5rem;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.1em;
+            margin-top: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 1rem 0 0 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul li a {
+            color: #a2d2ff; /* Màu sáng hơn cho link */
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+        main {
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            max-width: 900px;
+            margin: 0 auto 25px auto; /* Căn giữa main content */
+        }
+        section {
+            margin-bottom: 40px;
+            padding: 20px;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            background-color: #ffffff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        section h2 {
+            color: #2980b9; /* Màu xanh nổi bật cho tiêu đề section */
+            border-bottom: 2px solid #2980b9;
+            padding-bottom: 10px;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+        h3 {
+            color: #34495e; /* Màu đậm hơn cho tiêu đề nhỏ */
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        img {
+            max-width: 100%;
+            height: auto; /* Đảm bảo tỷ lệ khung hình */
+            display: block;
+            margin: 0 auto 15px auto; /* Căn giữa ảnh */
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+        }
+        ul {
+            list-style-type: disc; /* Kiểu danh sách chấm */
+            margin-left: 25px;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 8px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 25px;
+            background-color: #2c3e50;
+            color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 -4px 8px rgba(0,0,0,0.1);
+        }
+        footer p {
+            margin: 5px 0;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Dự Án Cuối Kỳ HTML Của Tôi</h1>
+        <p>Hành trình khám phá các yếu tố cơ bản của phát triển web.</p>
+        <nav>
+            <ul>
+                <li><a href="#gioi-thieu-chung">Tổng Quan Dự Án</a></li>
+                <li><a href="#thu-vien-hinh-anh">Thư Viện Hình Ảnh Của Tôi</a></li>
+                <li><a href="#tai-nguyen-hoc-tap">Tài Nguyên Học Tập</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="gioi-thieu-chung">
+            <h2>Giới Thiệu Về Trang Web Này</h2>
+            <p>Trang web này được xây dựng như một phần của dự án cuối kỳ, nhằm mục đích giới thiệu khả năng sử dụng các thành phần HTML ngữ nghĩa, đảm bảo khả năng truy cập và tuân thủ các tiêu chuẩn web.</p>
+
+            <h3>Các tính năng chính của trang:</h3>
+            <ul>
+                <li><strong>HTML Semantics:</strong> Áp dụng các thẻ như `header`, `main`, `section`, `article`, `nav`, và `footer` để cấu trúc nội dung một cách có ý nghĩa.</li>
+                <li><strong>Hình Ảnh Mô Tả:</strong> Sử dụng các thẻ `<img>` với thuộc tính `alt` mô tả đầy đủ để tăng cường khả năng tiếp cận.</li>
+                <li><strong>Danh Sách Có Cấu Trúc:</strong> Bao gồm cả danh sách không thứ tự (`<ul>`) và có thứ tự (`<ol>`) để trình bày thông tin rõ ràng.</li>
+                <li><strong>Liên Kết Ngoài An Toàn:</strong> Một liên kết tới nguồn tài liệu bên ngoài uy tín, mở trong tab mới một cách an toàn.</li>
+                <li><strong>Tuân Thủ Tiêu Chuẩn:</strong> Mã được viết cẩn thận để vượt qua các công cụ xác thực HTML của W3C.</li>
+            </ul>
+        </section>
+
+        <section id="thu-vien-hinh-anh">
+            <h2>Thư Viện Hình Ảnh Độc Đáo</h2>
+            <p>Dưới đây là tuyển chọn các hình ảnh minh họa cho các chủ đề khác nhau, tất cả đều có văn bản `alt` mô tả:</p>
+
+            <article>
+                <h3>Khám Phá Thiên Nhiên</h3>
+                <img src="images/mountain_landscape.jpg" 
+                     alt="Một phong cảnh núi non rộng lớn với những đỉnh núi hùng vĩ, cây cối xanh tươi và bầu trời trong xanh."
+                     width="600" height="400">
+                <p>Một góc nhìn ngoạn mục về cảnh quan núi non, nhấn mạnh sự hùng vĩ của tự nhiên. Luôn nhớ cập nhật thuộc tính `src` với đường dẫn hình ảnh của riêng bạn.</p>
+            </article>
+
+            <article>
+                <h3>Kiến Trúc Đô Thị</h3>
+                <img src="images/city_night.jpg" 
+                     alt="Toàn cảnh thành phố hiện đại vào ban đêm với những tòa nhà chọc trời sáng đèn và đường xá đông đúc xe cộ."
+                     width="600" height="400">
+                <p>Vẻ đẹp của một thành phố lớn khi màn đêm buông xuống, với những ánh đèn lấp lánh phản chiếu sự năng động. Hãy mô tả ảnh của bạn càng chi tiết càng tốt trong thuộc tính `alt`.</p>
+            </article>
+
+            <article>
+                <h3>Khoa Học và Công Nghệ</h3>
+                <img src="images/tech_abstract.png" 
+                     alt="Hình ảnh trừu tượng về các mạch điện tử màu xanh lam và tím, thể hiện sự phức tạp của công nghệ."
+                     width="600" height="400">
+                <p>Một cái nhìn cận cảnh vào thế giới vi mạch, đại diện cho những tiến bộ trong khoa học và công nghệ. Đừng bỏ trống `alt`!</p>
+            </article>
+        </section>
+
+        <section id="tai-nguyen-hoc-tap">
+            <h2>Tài Nguyên Học Tập Hữu Ích</h2>
+            <p>Dưới đây là một số tài nguyên tôi thấy hữu ích trong quá trình học tập:</p>
+            <ol>
+                <li>
+                    <a href="https://developer.mozilla.org/vi/docs/Web/HTML" target="_blank" rel="noopener noreferrer">MDN Web Docs - HTML (Tiếng Việt)</a>:
+                    Tài liệu tham khảo toàn diện và đáng tin cậy cho mọi thứ liên quan đến HTML, CSS và JavaScript. Một nguồn không thể thiếu cho bất kỳ nhà phát triển web nào.
+                </li>
+                <li>
+                    <a href="https://www.w3.org/standards/webdesign/htmlcss" target="_blank" rel="noopener noreferrer">Tiêu chuẩn thiết kế Web của W3C</a>:
+                    Trang web chính thức của World Wide Web Consortium (W3C), nơi bạn có thể tìm thấy các tiêu chuẩn và khuyến nghị cho công nghệ web.
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">FreeCodeCamp</a>:
+                    Một nền tảng tuyệt vời để học lập trình miễn phí, với các dự án thực hành và chứng chỉ.
+                </li>
+            </ol>
+            <p>Tôi đặc biệt khuyên bạn nên khám phá <a href="https://css-tricks.com/" target="_blank" rel="noopener noreferrer">CSS-Tricks</a> để biết thêm về các kỹ thuật CSS và thiết kế web hiện đại.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Dự Án Cuối Kỳ - Khoa Học Máy Tính</p>
+        <p>Bản quyền &copy; 2025 [Tên của bạn/Mã sinh viên của bạn]. Mọi quyền được bảo lưu.</p>
+        <p>Liên hệ: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    </footer>
+
+</body>
+</html>
